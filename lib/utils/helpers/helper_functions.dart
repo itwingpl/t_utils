@@ -42,7 +42,7 @@ class THelperFunctions {
   /// Returns a color based on the [VerificationStatus].
   static Color getVerificationStatusColor(VerificationStatus status) {
     switch (status) {
-      case VerificationStatus.unknown:
+      case VerificationStatus.Unknown:
         return Colors.grey;
       case VerificationStatus.pending:
         return Colors.orange;
